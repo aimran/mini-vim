@@ -29,7 +29,7 @@ set virtualedit=all       "allow the cursor to go into invalid places
 set history=100           "increase history buffer
 set number                "show line number
 set textwidth=80
-set colorcolumn=          "indicate text border
+"set colorcolumn=          "indicate text border
 set columns=100
 set wildmenu
 set ffs=unix
@@ -53,7 +53,7 @@ set showmatch             "show matching close paren when typed
 set matchtime=1           "how long to show matching paren in [ms]
 set backspace=indent,eol,start "allow backspace over everything in insert mode
 set list                  "show tab and eol characters
-set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
+set listchars=eol:¬,extends:❯,precedes:❮
 set lazyredraw            "don't update display while executing macro
 set incsearch             "incrementally match search
 set ignorecase            "ignore case if all lower but not otherwise
